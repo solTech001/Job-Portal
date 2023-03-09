@@ -1,0 +1,182 @@
+.navbar{
+    background-color: navy !important;
+  }
+
+.navbar button{
+    background: rgb(230, 216, 216) !important; 
+}
+.navbar a{
+    color: white;
+}
+/* .navbar .btn-outline-dark :active{
+    background-color: orangered;
+} */
+/* hero */
+.hero{
+   padding: 15px 20px;
+   background-color: beige;
+}
+.hero h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+   font-weight: bold;
+   font-size: 70px;
+}
+.hero h3 span{
+    color:navy !important;
+}
+/* .hero img{
+    width:80vh;
+} */
+.hero p{
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.hero .btn-outline-success{
+    background-color: white !important;
+    border:0px;
+    border-radius: 0px !important;
+}
+.hero .btn-outline-success:hover{
+    background-color: navy !important;
+    border-radius: 100vmax !important;
+}
+
+/* feature */
+.feature{
+    padding: 15px 20px;
+    background-color: beige;
+}
+.feature h4{
+    color: navy;
+}
+/* .feature .features{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+/* .features .col{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: solid navy 2px;
+     border-radius:10px ; 
+} */
+.features .col:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.head{
+    z-index: 1000;
+}
+/* footer */
+.footers{
+    background-color: navy;
+    color: white !important;
+    display: flex;
+    justify-content: space-around;
+}
+.footers button{
+    color: white !important;
+    background-color: navy;
+    border: white solid 2px;
+    border-radius: 2px;
+}
+.footers button:hover{
+    background-color: orangered;
+}
+/* job */
+.jobs h4{
+    color: navy !important;
+}
+
+.jobs{
+    padding: 15px 20px;
+    background-color: beige !important;
+}
+.jobs .card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.list-jobs div{
+    padding: 0 15px;
+}
+
+.jobs div a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:20px ;
+    font-weight: bold;
+}
+
+/* register */
+    .register .card{
+        border-radius: 25px !important;
+    }
+    
+    .register ::placeholder{
+        color:navy;
+        border-bottom: 2px navy solid;
+        outline: none !important;
+    }
+    .register button{
+        background-color: navy !important;
+    }
+    .dashbar{
+        background-color: navy !important;
+    }
+    /* ===================side bar======================== */
+    .sidebar li PostJ:hover{
+        background-color: white;
+    }
+    /* @media(max-width:912px){
+        .hero img{
+            display: none;
+        } 
+    } */
+
+.side-Left{
+    margin-right: calc();
+}
+@media(max-width:600px){
+    .hero h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+       font-weight: bold;
+       font-size: 40px;
+    }
+    .hero img{
+        padding-top: 10px;
+        width: 100% !important;
+    }
+    .feature h4{
+        font-weight: bold;
+        padding:2px 5px;
+    }
+    .feature .features{
+    display: flex;
+    flex-direction: column;
+    }
+    .footers{
+        background-color: navy;
+        color: white !important;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .jobs .card{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+   
+    .list-jobs div{
+        padding: 0 10px;
+    }
+
+    
+}
